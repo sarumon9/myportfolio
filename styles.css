@@ -4,6 +4,37 @@
     display: flex;
 }
 
+.flex-container h1 {
+    font-size: 70px;
+    margin-top: 5px;
+    margin-right: 70px;
+}
+
+.flex-container p {
+    font-size: 35px;
+    margin-top: 35px;
+}
+
 section h2 {
     text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    gap: 20px;
+}
+
+.grid-items:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.grid-items p {
+    font-size: 24px;
+}
+
+footer p {
+    float: right;
+    margin-top: 100px;
 }
