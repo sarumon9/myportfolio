@@ -22,8 +22,10 @@ section h2 {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px;
-    gap: 20px;
+    grid-template-rows: 135px 135px;
+    gap: 30px;
+    margin-right: 60px;
+    margin-left: 60px;
 }
 
 .grid-items:hover {
@@ -37,4 +39,8 @@ section h2 {
 footer p {
     float: right;
     margin-top: 100px;
+}
+
+footer a {
+    text-decoration: none;
 }
