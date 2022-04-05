@@ -13,27 +13,30 @@
 .flex-container p {
     font-size: 35px;
     margin-top: 35px;
+    color:#666;
 }
 
 section h2 {
     text-align: center;
+    font-size: 36px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 135px 135px;
+    grid-template-rows: 200px 200px;
     gap: 30px;
     margin-right: 60px;
     margin-left: 60px;
 }
 
-.grid-items:hover {
-    transform: scale(1.1, 1.1);
+.grid-items {
+    background-color: antiquewhite;
 }
 
-.grid-items p {
-    font-size: 24px;
+
+.grid-items:hover {
+    transform: scale(1.1, 1.1);
 }
 
 footer p {
@@ -102,6 +105,6 @@ footer a {
     background: #ccc;
 }
 
-.slick-dots .slick-actiove button {
+.slick-dots .slick-active button {
     background: #333;
 }
