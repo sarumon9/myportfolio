@@ -9,29 +9,7 @@ $('.slider').slick({
     dots:true
 });
 
-// window.onload = LoadFunction;
 
-// function LoadFunction(){
-//     let menu1 = document.getElementById("menu1");
-//     let menu2 = document.getElementById("menu2");
-
-//     menu1.style.display = "none";
-//     menu2.style.display = "none";
-    
-//     let menuClick = document.getElementById("menu-click");
-//     menuClick.onclick = ClickFunction;
-// }
-
-// function ClickFunction(){
-//     menu1.style.display = "block";
-//     menu2.style.display = "block";
-//     menuClick.onclick = ClickFunction2;
-// }
-
-// function ClickFunction2(){
-//     menu1.style.display = "none";
-//     menu2.style.display = "none";
-// }
 
 $(document).ready(readyFunction);
 
